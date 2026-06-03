@@ -1,4 +1,4 @@
-# IG Fucker
+# IG Dumper
 
 <p align="left">
   <img src="https://img.shields.io/badge/version-2.0.0-000000?style=flat-square&color=000000&labelColor=ffb6c1" alt="Version">
@@ -17,10 +17,10 @@ Herramienta de extraccion de perfiles para Instagram. Permite descargar imagenes
 Abre PowerShell y ejecuta el siguiente comando para descargar el ejecutable en tu Escritorio:
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/4drixn/IG-Fucker/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/4drixn/IG-Dumper/main/install.ps1 | iex
 ```
 
-1. Ejecuta `IGFucker.exe` desde tu Escritorio.
+1. Ejecuta `IGDumper.exe` desde tu Escritorio.
 2. Introduce la URL o username del perfil objetivo.
 3. Especifica tu carpeta de destino y presiona Iniciar.
 
