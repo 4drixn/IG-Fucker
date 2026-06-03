@@ -26,7 +26,7 @@ iwr -useb https://raw.githubusercontent.com/4drixn/IG-Fucker/main/install.ps1 | 
 
 ## Autor & Creditos
 
-Creado y mantenido por Adrian.
+Creado y mantenido por:
 
 <p align="left">
   <a href="https://adrian.is-a.dev/">
