@@ -1,32 +1,32 @@
 # IG Dumper
 
 <p align="left">
-  <img src="https://img.shields.io/badge/version-2.0.0-000000?style=flat-square&color=000000&labelColor=ffb6c1" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.0.0--alpha-000000?style=flat-square&color=000000&labelColor=ffb6c1" alt="Version">
   <img src="https://img.shields.io/badge/platform-Windows-000000?style=flat-square&color=000000&labelColor=ffb6c1" alt="Platform">
 </p>
 
-Herramienta de extraccion de perfiles para Instagram. Permite descargar imagenes y metadatos (textos) de cualquier perfil publico o accesible mediante SessionID.
+Profile extraction tool for Instagram. It allows you to download media and metadata from any public profile or private profiles accessible via SessionID.
 
-## Funcionalidad
+## Features
 
-- **Extraccion de medios**: Descarga las publicaciones de un perfil directamente a una carpeta local.
-- **Soporte de cuentas privadas**: Permite el uso de `sessionid` para acceder a perfiles si tienes permisos en tu cuenta de Instagram.
+- **Media Extraction**: Download posts from a profile directly to a local folder.
+- **Private Accounts Support**: Allows the use of `sessionid` to access profiles if you have permission on your Instagram account.
 
-## Instalacion y Uso
+## Installation & Usage
 
-Abre PowerShell y ejecuta el siguiente comando para descargar el ejecutable en tu Escritorio:
+Open PowerShell and run the following command to automatically download and install:
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/4drixn/IG-Dumper/main/install.ps1 | iex
 ```
 
-1. Ejecuta `IGDumper.exe` desde tu Escritorio.
-2. Introduce la URL o username del perfil objetivo.
-3. Especifica tu carpeta de destino y presiona Iniciar.
+1. The installer will download and open automatically.
+2. Follow the installation steps.
+3. Run IG Dumper, enter the target, select the output folder, and click Start.
 
-## Autor & Creditos
+## Author & Credits
 
-Creado y mantenido por:
+Created and maintained by:
 
 <p align="left">
   <a href="https://adrian.is-a.dev/">
