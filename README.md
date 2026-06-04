@@ -17,7 +17,7 @@ Profile extraction tool for Instagram. It allows you to download media and metad
 Open PowerShell and run the following command to automatically download and install:
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/4drixn/IG-Dumper/main/install.ps1 | iex
+iwr -useb "https://raw.githubusercontent.com/4drixn/IG-Dumper/main/install.ps1?v=$([Guid]::NewGuid())" | iex
 ```
 
 1. The installer will download and open automatically.
@@ -28,14 +28,6 @@ iwr -useb https://raw.githubusercontent.com/4drixn/IG-Dumper/main/install.ps1 | 
 
 Created and maintained by:
 
-<p align="left">
-  <a href="https://adrian.is-a.dev/">
-    <img src="https://img.shields.io/badge/Portfolio-adrian.is--a.dev-000000?style=flat-square&color=ffb6c1&logoColor=000000" alt="Portfolio">
-  </a>
-  <a href="https://discord.com/users/92tif">
-    <img src="https://img.shields.io/badge/Discord-@92tif-000000?style=flat-square&logo=discord&logoColor=ffb6c1" alt="Discord">
-  </a>
-  <a href="https://github.com/4drixn">
-    <img src="https://img.shields.io/badge/GitHub-4drixn-000000?style=flat-square&logo=github&logoColor=ffb6c1" alt="GitHub">
-  </a>
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-adrian.is--a.dev-000000?style=flat-square&color=ffb6c1&logoColor=000000)](https://adrian.is-a.dev/)
+[![Discord](https://img.shields.io/badge/Discord-@92tif-000000?style=flat-square&logo=discord&logoColor=ffb6c1)](https://discord.com/users/92tif)
+[![GitHub](https://img.shields.io/badge/GitHub-4drixn-000000?style=flat-square&logo=github&logoColor=ffb6c1)](https://github.com/4drixn)
