@@ -1,4 +1,3 @@
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 Clear-Host
 
 Write-Host "  .  *  +   .   *   +   .   *   +   .   *   +   .   *   +  ." -ForegroundColor Magenta
